@@ -6,11 +6,17 @@ const NavBar = () => {
         <nav className='flex w-full  border border-black rounded-lg p-3 m-6 justify-between'>
             <Link to="/">
                 <p className='text-7xl'>INICIO</p>
-            </Link> 
+            </Link>
 
-            <ul className='list-none'>
-                <li className=''>
+            <ul className='list-none flex gap-6'>
+                <li >
                     <Link to="/contador">Contador</Link>
+                </li>
+                <li >
+                    <Link to="/saludo">Saludo</Link>
+                </li>
+                <li >
+                    <Link to="/tareas">Tareas</Link>
                 </li>
             </ul>
         </nav>

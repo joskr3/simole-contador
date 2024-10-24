@@ -7,6 +7,8 @@ import {
 import './index.css'
 import HomePage from './routes/Home/index.jsx';
 import ContadorPage from './routes/Contador/index.jsx';
+import SaludoPage from './routes/Saludo/index.jsx';
+import TareasPage from './routes/Tareas/index.jsx';
 
 
 export const router = createBrowserRouter([
@@ -17,6 +19,14 @@ export const router = createBrowserRouter([
   {
     path: "/contador",
     element: <ContadorPage />
+  },
+  {
+    path: "/saludo",
+    element: <SaludoPage />
+  },
+  {
+    path: "/tareas",
+    element: <TareasPage />
   }
 ]);
 
